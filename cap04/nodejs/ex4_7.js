@@ -3,7 +3,7 @@ const pessoas = Number(prompt("Nº de pessoas: ")) //lê os dados
 const peixes = Number(prompt("Nº de peixes: "))
 let pagar                      //declara a variável pagar
 if (pessoas >= peixes){        //condicional sem taxa extra
-    pagar = pessoas *20
+    pagar = pessoas * 20
 }else{                         //condicional com taxa extra
     pagar = (pessoas * 20) + ((peixes - pessoas) * 12)
 }
