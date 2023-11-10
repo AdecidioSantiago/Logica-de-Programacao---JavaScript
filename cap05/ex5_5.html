@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contabilidade</title>
+    <link rel="stylesheet" href="css/ex5_5.css">
+</head>
+<body>
+    <img src="img/contabilidade.png" alt="Contabilidade" class="alta">
+    <h1>Programa Contas do Mês</h1>
+    <form action="">
+        <p>Descrição da Conta: 
+            <input type="text" placeholder="Ex: Aluguel" id="inDescricao" required>
+        </p>
+        <p>Valor a Pagar: 
+            <input type="number" placeholder="Insira o valor da conta" id="inValor" min="0" step="0.01" required>
+        </p>
+        <input type="submit" value="Registrar Conta">
+    </form>
+    <pre id="outResp1"></pre>
+    <pre id="outResp2"></pre>
+    <script src="js/ex5_5.js"></script>
+</body>
+</html>
