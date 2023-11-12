@@ -12,7 +12,7 @@ frm.addEventListener('submit', (e) => {   //"escuta" evento submit do form
     const descricao = frm.inDescricao.value    //obtém os dados da conta
     const valor = Number(frm.inValor.value)
 
-    numContas++       //adiciona valores ao contador e acumulador
+    numContas++      //adiciona valores ao contador e acumulador
     valTotal += valor
     resposta = resposta + descricao + ' - R$: ' + valor.toFixed(2) + '\n'
     resp1.innerHTML = `${resposta}--------------------------`
