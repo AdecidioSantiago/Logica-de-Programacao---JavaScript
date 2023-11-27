@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos de Adivinhação</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <img src="img/palavra.jpeg" alt="" class="alta">
+    <h1>Joga Descubra a Palavra</h1>
+    <form action="">
+        <p>Qual a palavra? 
+            <input type="text" placeholder="Digite a qui a palavra" id="inPalavra" required autofocus>
+            <input type="submit" value="Verificar" id="btSubmit">
+            <input type="button" value="Tentar Novamente" id="btNovo" class="oculta">
+        </p>
+    </form>
+    <h3>Erros: <span id="outErros">0</span></h3>
+    <h3>Chances: <span id="outChances">5</span></h3>
+    <h3 id="outDica">Dica: </h3>
+    <script src="js/ex6_2_1.js"></script>
+</body>
+</html>
